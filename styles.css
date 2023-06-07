@@ -13,6 +13,11 @@
 #main-div1-left {
     padding: 55px 70px 0;
     text-align: left;
+    width: 55%;
+}
+
+#main-div1-right {
+    width: 45%;
 }
 
 #main-div1-sub-div1 {
@@ -82,8 +87,6 @@
     padding-left: 20px;
     outline: none;
     color: #282c3f;
-    font-size: 18px;
-    font-weight: 500;
 }
 
 #btn-location {
