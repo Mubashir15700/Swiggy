@@ -84,7 +84,7 @@
     font-weight: 500;
     margin-right: 130px;
     border: 0px;
-    padding-left: 20px;
+    padding-left: 21px;
     outline: none;
     color: #282c3f;
 }
@@ -249,29 +249,34 @@ ul {
 
 .main-div4-sub-div {
     padding: 10px 70px 0;
+    margin-bottom: 10px;
 }
 
 .main-div4-sub-div div {
     margin-bottom: 20px;
     cursor: pointer;
-    transition: 0.1s;
+    transition: 0.3s;
+    height: 20px;
 }
 
 .main-div4-sub-div div:hover {
     font-size: 17px;
 }
 
+.main-div4-sub-div button {
+    height: 60px;
+    margin-bottom: 30px;
+}
+
 .main-div4-btn {
     cursor: pointer;
-    border-width: .5px;
-    border-color: #fff;
     border-radius: 10px;
 }
 
 .main-div4-btn img {
     height: 54px;
     border-style: none;
-    transition: .1s;
+    transition: .3s;
 }
 
 .main-div4-btn img:hover {
@@ -282,16 +287,12 @@ ul {
     padding-top: 30px;
 }
 
-.main-div5-sub-div1 {
+.main-div5-sub-div1, #main-div6-sub-div1, .main-div6-sub-div1, #main-div6-sub-div {
     display: flex;
 } 
 
-.main-div5-sub-div1 div {
+.main-div5-sub-div1 div, #main-div6-sub-div a {
     flex: 1;
-}
-
-#main-div6-sub-div1 {
-    display: flex;
 }
 
 .main-div5-sub-div2 {
@@ -301,7 +302,8 @@ ul {
 .main-div5-sub-div2 ul li {
     margin-bottom: 20px;
     cursor: pointer;
-    transition: 0.1s;
+    transition: 0.3s;
+    height: 30px;
 }
 
 .main-div5-sub-div2 ul li:hover {
@@ -320,19 +322,12 @@ ul {
     font-size: 15px;
     font-weight: 600;
     margin-left: 70px;
+    margin-bottom: 20px;
 }
 
 #main-div6 div {
     flex: 1;
     padding: 10px 70px 10px;
-}
-
-.main-div6-sub-div1, #main-div6-sub-div {
-    display: flex;
-}
-
-#main-div6-sub-div a {
-    flex: 1;
 }
 
 #main-div6-img-swiggy {
@@ -346,7 +341,7 @@ ul {
 
 #main-div6-sub-div a i {
     cursor: pointer;
-    transition: 0.1s;
+    transition: 0.3s;
 }
 
 #main-div6-sub-div a i:hover {
