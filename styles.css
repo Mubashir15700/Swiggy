@@ -75,6 +75,8 @@
 .inp-div {
     border: 1px solid #a9abb2; 
     width: 619px;
+    display: flex;
+    justify-content: space-between;
 }
 
 #main-input {
